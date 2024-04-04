@@ -1,0 +1,154 @@
+/* Container */
+body {
+	text-align: center; /* for IE */
+     }
+
+
+div.container{
+		margin: 0 auto;   /* align for good browsers */
+		text-align: left; /* counter the body center */
+		width:80%;
+		margin:0px;
+		border:1px solid gray;
+		line-height:150%;
+		}
+
+div.header
+		{
+		background-image:
+		url('image/spring4.jpg');
+		background-repeat: repeat-x;
+		background-attachment: fixed
+
+		padding:0.5em;
+		color:white;
+		background-color:gray;
+		clear:left;
+}
+
+
+
+div.footer
+		{
+		color:black;
+		background-color:white;
+		clear:left;
+}
+
+div.left{
+	float: left;
+	background: #eeeeee;
+	border: 1px #cccccc solid;
+	padding: 0px 3px 3px 3px;
+	margin-bottom: 10px;
+}
+
+
+div.content {
+	border-top: 1px #cccccc solid;	
+	border-left: 1px #cccccc solid;	
+	border-bottom: 1px #cccccc solid;	
+	border-right: 1px #cccccc solid;	
+	margin-left: 190px;
+	padding-left: 20px;
+}
+
+
+
+
+
+
+p
+		{
+		color:black;
+		}
+
+
+.h2 {
+        font: bold 20pt arial
+    }
+
+.h3 {
+	font: bold 16pt arial}
+
+.h4 {
+	font: bold 12pt arial}
+
+.h5 {
+	font: bold 11pt arial}
+
+
+
+li
+		{
+		font-family: verdana, helvetica, arial;
+		text-decoration: none;
+		font-size:12px;
+		line-height: 1.2em
+		}
+	
+.text 
+		{
+		font-family: verdana, helvetica, arial;
+		text-decoration: none;
+		font-size:12px;
+		line-height: 1.2em
+		}
+		
+.bold
+		{
+		font-family: verdana, helvetica, arial;
+		text-decoration: none;
+		font-size:12px;
+		font-weight:bold;
+		text-decoration: underline;
+		line-height: 1.2em
+		}
+.textspread
+                {
+		text-align:center;
+                font-family: verdana, helvetica, arial;
+                text-decoration: none;
+                font-size:12px;
+                word-spacing: 50;
+		color:black
+		line-height: 1.5em
+                }
+
+
+td 
+		{
+		font-family: verdana, helvetica, arial;
+		text-decoration: none;
+		font-size:11px;
+		
+		}
+
+/*General Links*/
+
+a:link {
+	color: #996161;
+	text-decoration: underline}
+
+a:active {
+	color: #000000;
+	text-decoration: underline}
+
+a:visited {
+	color: #800517;
+	text-decoration: underline}
+
+a:hover {
+	color: #000000;
+	text-decoration: underline}	
+
+
+/* table style */
+.listinghead {   font-size: 10pt; font-family:Verdana, Arial, Helvetica} 
+TD.listinghead {  vertical-align: top; border: 1px #333399 solid; background-color: #FFFFFF}
+.listingbody {  font-size: 10pt;font-family: Verdana, Arial, Helvetica}
+TD.listingbody {  vertical-align: top; background-color: #FFFFFF; border: #666600; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+a.listinghead {  ; color: #006666; text-decoration: none}
+a.listinghead:hover {  ; color: #006666; text-decoration: underline}
+.listingheadtitle { font-size: 10pt; font-weight: bold; font-family: Verdana, Arial, Helvetica}
+
